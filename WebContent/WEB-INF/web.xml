@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <context-param>
+    <param-name>jdbc.driver</param-name>
+    <param-value>com.mysql.jdbc.Driver</param-value>
+  </context-param>
+  <context-param>
+    <param-name>jdbc.url</param-name>
+    <param-value>jdbc:mysql://localhost:3306/sfinge</param-value>
+  </context-param>
+  <context-param>
+    <param-name>jdbc.user</param-name>
+    <param-value>root</param-value>
+  </context-param>
+  <context-param>
+    <param-name>jdbc.password</param-name>
+    <param-value></param-value>
+  </context-param>
+  <context-param>
+    <param-name>app.id</param-name>
+    <param-value>140535542666643</param-value>
+  </context-param>
+  <context-param>
+    <param-name>app.secret</param-name>
+    <param-value>568ef5ca42508a25142eea34ac2aa260</param-value>
+  </context-param>
+  <context-param>
+    <param-name>app.url</param-name>
+    <param-value>http://intralabs.dyndns.org:8080/Sfinge/Run/</param-value>
+  </context-param>
+    <context-param>
+    <param-name>app.canvas_page</param-name>
+    <param-value>http://apps.facebook.com/sfingeapp/</param-value>
+  </context-param>
+  <context-param>
+    <param-name>app.administrators</param-name>
+    <param-value>manuel.calzolari</param-value>
+  </context-param>
+</web-app>
